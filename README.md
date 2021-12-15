@@ -1,1 +1,1 @@
-learning_rust
+A repository dedicated to learning Rust. 
