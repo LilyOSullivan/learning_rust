@@ -1,0 +1,17 @@
+[package]
+name = "jsoner"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[lib]
+path="src/lib.rs"
+name="jsoner"
+
+[[bin]]
+path="src/main.rs"
+name="json_to_debug"
+
+[dependencies]
+gobble = "0.6.3"
